@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike Airforce1 Premium</title>
+    <link href="/src/style.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-200">
+    <main class="flex min-h-screen items-center justify-center p-4">
+      <!-- CARD -->
+      <section class="flex w-100 flex-col rounded-4xl bg-white p-3 shadow-2xl">
+        <!-- IMG CONTAINER -->
+        <div class="relative h-100 w-full overflow-hidden rounded-4xl">
+          <img
+            class="h-full w-full object-cover"
+            src="https://media.ambito.com/p/28fd8687b004cb5215b84841e0f71aaf/adjuntos/239/imagenes/038/732/0038732622/nike-5126389_1920jpg.jpg"
+            alt="Nike Airforce1 Premium"
+          />
+
+          <!-- BADGE: Best Seller -->
+          <span
+            class="absolute top-4 left-4 rounded-full bg-black/20 px-3.5 py-1 text-xs font-medium text-white/75 backdrop-blur-ld"
+          >
+            Best Seller
+          </span>
+
+          <!-- LOGO: Nike -->
+          <div
+            class="absolute top-4 right-4 flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md"
+          >
+            <img 
+              class="h-6 w-6 object-contain"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpurepng.com%2Fpublic%2Fuploads%2Flarge%2Fpurepng.com-nike-logologobrand-logoiconslogos-2515199407298sbym.png&f=1&nofb=1&ipt=bb1b0c4496ab1b6daa72e020c137b5089a325e20c096be0fccc4c6a8ac4adbe7"
+              alt="Nike Logo"
+            />
+            </svg>
+          </div>
+
+          <!-- CAROUSEL DOTS -->
+          <div class="absolute bottom-3 inset-x-0 flex justify-center items-center gap-1.5">
+            <span class="h-2 w-2 rounded-full bg-white"></span>
+            <span class="h-2 w-2 rounded-full bg-white/50"></span>
+            <span class="h-2 w-2 rounded-full bg-white/50"></span>
+            <span class="h-2 w-2 rounded-full bg-white/50"></span>
+          </div>
+        </div>
+
+        <!-- CONTENT -->
+        <article class="flex flex-col p-4 pt-5">
+          <h1 class="text-2xl font-bold text-black">Nike Airforce1 Premium</h1>
+          <p class="mt-1 text-base font-medium text-gray-400">
+            Own the Airforce
+          </p>
+          <p class="mt-2 text-sm leading-snug text-gray-400">
+            Step back into classic hoops style with a durable leather.
+          </p>
+
+          <!-- FOOTER -->
+          <div class="mt-4 flex items-center justify-between">
+            <span
+              class="rounded-full bg-gray-100 px-5 py-1 text-lg font-bold text-black"
+            >
+              $111
+            </span>
+            <button
+              class="flex items-center gap-2.5 rounded-full bg-black py-1 pl-5 pr-2 text-sm font-semibold text-white transition hover:bg-gray-800"
+            >
+              <span>Buy Now</span>
+              <span
+                class="flex h-7 w-7 items-center justify-center rounded-full bg-white text-black"
+              >
+                <svg
+                  class="h-4 w-4"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
